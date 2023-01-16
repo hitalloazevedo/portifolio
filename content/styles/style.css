@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #d8d8d8;
+    background-image: linear-gradient(#9fe2fdc4, #6f3fe0);
+    width: 100vw;
+    height: 100vh;
+}
+
+.head-content {
+    position: relative;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.head-content > h2 {
+    position: absolute;
+    bottom: 10px;
+    left: 190px;
+    font-size: 2em;
+}
+
+.profile-image {
+    width: 130px;
+    border-radius: 75px;
+    border: 3px solid rgb(87, 49, 175);
+}
+
+.main-content {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content {
+    background-color: #dfffa33a;
+    width: 26%;
+    min-width: 430px;
+    height: 75%;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 18px #00000038;
+}
+
+.body-content {
+    text-align: justify;
+}
+
+.body-content > p{
+    font-size: 1.2em;
+}
+
+.buttons {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons > a {
+    /* background-color: #7748e4; */
+    /* #7748e4 */
+    background-image: linear-gradient(to right, #8b61ee, #5238d6);
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    border-radius: 35px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.1em;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.397);
+}
+
+.buttons > a > i{
+    margin-right: 15px;
+} 
+
+.buttons > a:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.541);
+    transition: transform .3s;
+    background-image: none;
+    background-color: #6831e99a;
+}
+
+.buttons > a:active {
+    background-color: #9269f3;
+    transition: background-color .1s;
+}
+
+#b2 > h2, 
+#b3 > h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #313131;
+}
+
+#b3 > h3 {
+    text-align: center;
+}
+
+.footer-content > ul {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content > ul > li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-content {
+    margin-top: 30px;
+}
