@@ -18,6 +18,10 @@
         height: 220vh;
     }
 
+    .content {
+        width: 50%;
+    }
+
     body {
         height: 220vh;
     }
