@@ -15,15 +15,21 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 220vh;
+        height: 240vh;
+    }
+
+    .head-content h2 {
+        left: 130px;
+        font-size: 1.6em;
     }
 
     .content {
         width: 50%;
+        min-width: 360px;
     }
 
     body {
-        height: 220vh;
+        height: 245vh;
     }
 }
 
