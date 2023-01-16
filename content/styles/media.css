@@ -8,6 +8,17 @@
     .content {
         width: 60%;
     }
+
+    .main-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 240vh;
+    }
+
+    body {
+        height: 245vh;
+    }
 }
 
 @media  screen and (max-width: 1450px) {
