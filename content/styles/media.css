@@ -19,6 +19,10 @@
     body {
         height: 245vh;
     }
+
+    main {
+        margin-top: 40px;
+    }
 }
 
 @media  screen and (max-width: 1450px) {
