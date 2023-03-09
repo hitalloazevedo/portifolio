@@ -1,3 +1,7 @@
+:root {
+    --red-color: #c52323;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -6,8 +10,7 @@
 }
 
 body {
-    background-color: #d8d8d8;
-    background-image: linear-gradient(#9fe2fdc4, #6f3fe0);
+    background-color: #1f1f1f;
     width: 100vw;
     height: 100vh;
 }
@@ -25,10 +28,14 @@ body {
     font-size: 2em;
 }
 
+span.red {
+    color: var(--red-color);
+}
+
 .profile-image {
     width: 130px;
     border-radius: 75px;
-    border: 3px solid rgb(144, 102, 241);
+    border: 3px solid var(--red-color);
 }
 
 .main-content {
@@ -39,7 +46,8 @@ body {
 }
 
 .content {
-    background-color: #dfffa33a;
+    background-color: #252525;
+    color: #d6d6d6;
     width: 26%;
     min-width: 430px;
     height: 75%;
@@ -68,13 +76,13 @@ body {
 .buttons > a {
     /* background-color: #7748e4; */
     /* #7748e4 */
-    background-image: linear-gradient(to right, #8b61ee, #5238d6);
+    background-image: linear-gradient(to right, #ff1e1e93, #d13519a4);
     padding: 20px;
     margin: 20px;
     width: 80%;
     border-radius: 35px;
     text-decoration: none;
-    color: #fff;
+    color: #d6d6d6;
     font-weight: 300;
     font-size: 1.1em;
     text-align: center;
@@ -86,11 +94,11 @@ body {
 } 
 
 .buttons > a:hover {
-    transform: translate(-4px, -4px);
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.541);
-    transition: transform .3s;
+    transform: translate(4px, -4px);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.541);
+    transition: transform .4s;
     background-image: none;
-    background-color: #6831e99a;
+    background-color: #db57579a;
 }
 
 .buttons > a:active {
@@ -102,7 +110,7 @@ body {
 #b3 > h2 {
     text-align: center;
     font-size: 2.5em;
-    color: #313131;
+    color: var(--red-color);
 }
 
 #b3 > h3 {
@@ -114,6 +122,7 @@ body {
     text-align: center;
     display: flex;
     justify-content: space-around;
+    color: #d6d6d6;
 }
 
 .footer-content > ul > li {
