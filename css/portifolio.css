@@ -1,0 +1,141 @@
+#portifolio {
+    width: 100%;
+    height: 75vh;
+    padding: 30px 0px;
+    background-color: antiquewhite;
+}
+
+#portifolio header h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#portifolio > main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/*carousel*/
+
+.swiper {
+    width: 1200px;
+    height: 600px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*card*/
+.card {
+    border-radius: 25px;
+    background-color: #FFF;
+    width: 380px;
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 15px;
+    row-gap: 5px;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 8px;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #4070f4;
+    border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after {
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: 0;
+    bottom: -40px;
+    background-color: #4070f4;
+}
+
+.overlay::after {
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+}
+
+.card-image {
+    position: relative;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+}
+
+.card-image .card-img {
+    height: 95%;
+    width: 95%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4070f4;
+}
+
+
+.name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.description {
+    font-size: 1em;
+    color: #707070;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    column-gap: 20px;
+    margin-top: 10px;
+}
+
+.links a {
+    font-size: 2em;
+    color: #333;
+    transition: .5s;
+}
+
+.links a:hover {
+    transform: translate(4px,-3px);
+    color: rgb(150, 150, 150);
+}

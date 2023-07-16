@@ -1,0 +1,40 @@
+.swipe-down-home {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+}
+
+#about footer {
+    position: relative;
+} 
+
+.swipe-down-about {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.swipe-down i {
+    font-size: 3em;
+    animation: floating 1.5s infinite linear;
+    color: #5b5b5b;
+    transition: 1s;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}

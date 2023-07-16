@@ -1,0 +1,36 @@
+#about {
+    min-height: 75vh;
+    scroll-behavior: smooth;
+    display: block;
+    /* scroll-margin-top: 16em; */
+}
+
+#about main {
+    color: #000000;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about main h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#about main p {
+    font-size: 1.4em;
+    line-height: 35px;
+    width: 60%;
+    margin: 20px auto 0px auto;
+    text-align: justify;
+}
+
+#about main .thanks {
+    font-size: 1.4em;
+    line-height: 35px;
+    width: 60%;
+    margin: 40px auto 0px auto;
+    text-align: center;
+}
