@@ -5,13 +5,13 @@
     height: 7em;
     width: 100%;
     padding: 0 13.5em;
-    color: #505050;
+    color: var(--dark-gray);
     box-sizing: border-box;
     top: 0;
     left: 0;
     transition: .6s;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 
 #nav-menu > div {
@@ -45,11 +45,11 @@
 #nav-menu nav ul li:hover,
 #nav-menu nav ul li a:hover {
     transform: translate(2px, -3px);
-    color: rgb(150, 150, 150);
+    color: var(--light-gray);
 }
 
 .scroll {
-    background-color: #5b5b5b;
+    background-color: var(--dark-gray);
     height: 4.5em !important;
     color: #ebebeb !important;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.527);
@@ -60,5 +60,5 @@
 }
 
 .scrolla:hover {
-    color: #949494 !important;
+    color: var(--light-gray) !important;
 }
