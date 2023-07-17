@@ -1,8 +1,24 @@
+:root {
+    --dark-gray: #5b5b5b;
+    --light-gray: #969696;
+}
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    scrollbar-color: black;
 }
+
+/* ::-webkit-scrollbar {
+    width: 15px;
+    background-color: #5b5b5b;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #c7c7c7;
+    border-radius: 20px;
+} */
 
 html, body {
     scroll-behavior: smooth;
@@ -12,6 +28,7 @@ body {
     width: 80%;
     margin: auto;
     color: #0a0a0a;
+    position: relative;
 }
 
 body > main {
