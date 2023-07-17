@@ -21,13 +21,13 @@
 
 .swiper {
     width: 1200px;
-    height: 600px;
+    height: 500px;
 }
 
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: #f7f7f7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,8 @@
 .card {
     border-radius: 25px;
     background-color: #FFF;
-    width: 380px;
+    min-width: 350px;
+    height: 500px;
 }
 
 .image-content,
@@ -62,9 +63,14 @@
     row-gap: 5px;
 }
 
+.card-content {
+    height: 65%;
+}
+
 .image-content {
     position: relative;
     row-gap: 8px;
+    height: 35%;
 }
 
 .overlay {
@@ -97,16 +103,16 @@
     position: relative;
     height: 160px;
     width: 160px;
-    border-radius: 50%;
+    border-radius: 100%;
     background: #FFF;
     padding: 3px;
 }
 
 .card-image .card-img {
-    height: 95%;
-    width: 95%;
+    height: 96%;
+    width: 96%;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 100%;
     border: 4px solid #4070f4;
 }
 
@@ -121,6 +127,9 @@
     font-size: 1em;
     color: #707070;
     text-align: center;
+    word-wrap: break-word;
+    width: 90%;
+    height: 50%;
 }
 
 .links {

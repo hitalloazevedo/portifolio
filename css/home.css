@@ -1,14 +1,16 @@
 #home {
-    display: block;
+    display: flex;
+    align-items: center;
     min-height: 80vh;
     position: relative;
     scroll-behavior: smooth;
     scroll-margin-top: 14em;
 }
 
-#home > main {
+#home main {
     height: 100%;
-    display: block;
+    width: 100%;
+    padding: 0 50px;
 }
 
 #home > main > div.content {

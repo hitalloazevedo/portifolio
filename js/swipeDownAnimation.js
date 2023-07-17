@@ -10,9 +10,9 @@ window.addEventListener('scroll', () => {
 
     swipeDownAbout.style.scale = '0'
 
-    if (window.scrollY >= 900 && window.scrollY <= 1000) {
+    if (window.scrollY >= 900 && window.scrollY <= 900) {
         swipeDownAbout.style.scale = '1'
-    } else if (window.screenY > 1000){
+    } else if (window.screenY >= 900){
         swipeDownAbout.style.scale = '0'
     }
 

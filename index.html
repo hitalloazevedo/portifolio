@@ -17,14 +17,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    
     <script src="https://kit.fontawesome.com/98da144417.js" crossorigin="anonymous"></script>
     <script src="./js/scrollHeaderAnimation.js" defer></script>
     <script src="./js/outputAnimation.js" defer></script>
-    <script src="./js/navigation.js" defer></script>
     <script src="./js/swipeDownAnimation.js" defer></script>
     <script src="./js/swiper.js" defer></script>
-    <script src="./js/cdn.jsdelivr.net_npm_swiper@10.0.4_swiper-bundle.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 </head>
 <body>
@@ -71,31 +70,37 @@
                         <img src="img/Programming-amico.svg" alt="homem-navegando-no-computador">
                     </aside>
                 </div>
-
+<!-- 
                 <div class="swipe-down">
                     <div class="swipe-down-home">
                         <i class="fa-solid fa-angles-down"></i>
                     </div>
-                </div>
+                </div> -->
             </main>
         </section>
         <section id="about">
-            <main>
+            <header>
                 <h2>About me</h2>
-                <div class="thanks">
-                    At first, thank you for visiting my website! <br>
-                    let me talk a litte bit about me.
+            </header>
+            <main>
+                <div class="about-content">
+                    <div class="thanks">
+                        <p>
+                            At first, thank you for visiting my website! <br>
+                            let me talk a litte bit about me.
+                        </p>
+                    </div>
+                    <p>
+                        Hey there! I'm Hitallo Azevedo, and I'm 17 years old.
+                        I study web development with a focus on front-end, I chose this area because it's a world of opportunities where the only limit is your creativity. My first experience about programming was in 2020 with python, I fell in love, since then I have been studying and improving my skills every day, to be honest in my opinion to achieve success in this career it's too important be curious and have hungry about knowledge.
+                    </p>
                 </div>
-                <p>
-                    Hey there! I'm Hitallo Azevedo, and I'm 17 years old.
-                    I study web development with a focus on front-end, I chose this area because it's a world of opportunities where the only limit is your creativity. My first experience about programming was in 2020 with python, I fell in love, since then I have been studying and improving my skills every day, to be honest in my opinion to achieve success in this career it's too important be curious and have hungry about knowledge.
-                </p>
             </main>
             <footer>
-                <div class="swipe-down">
+                <!-- <div class="swipe-down">
                     <div class="swipe-down-about">
                         <i class="fa-solid fa-angles-down"></i>
-                    </div>
+                    </div> -->
             </footer>
         </section>
         <section id="portifolio">
@@ -133,63 +138,12 @@
                 
                       </div>
                       <div class="swiper-slide">
-                
-                        <div class="card ">
-                          <div class="image-content">
-                              <span class="overlay"></span>
-                      
-                              <div class="card-image">
-                                  <img src="./img/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.avif" class="card-img">
-                              </div>
-                          </div>
-                      
-                          <div class="card-content">
-                              <h2 class="name">
-                                  Hitallo Azevedo
-                              </h2>
-                              <p class="description">
-                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dignissimos eveniet magnam ipsa, quaerat iste inventore dicta debitis rerum expedita quisquam, repellat beatae fuga velit tenetur at. Cum, illum accusamus?
-                              </p>
-                      
-                              <div class="links">
-                                  <a href=""><i class="fa-brands fa-github"></i></a>
-                                  <a href=""><i class="fa-solid fa-link"></i></a>
-                              </div>
-                          </div>
-                      </div>
-                
+                        fdsdaf
                       </div>
                       <div class="swiper-slide"> 
-                        <div class="card ">
-                          <div class="image-content">
-                              <span class="overlay"></span>
-                      
-                              <div class="card-image">
-                                  <img src="./img/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.avif" class="card-img">
-                              </div>
-                          </div>
-                      
-                          <div class="card-content">
-                              <h2 class="name">
-                                  Hitallo Azevedo
-                              </h2>
-                              <p class="description">
-                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dignissimos eveniet magnam ipsa, quaerat iste inventore dicta debitis rerum expedita quisquam, repellat beatae fuga velit tenetur at. Cum, illum accusamus?
-                              </p>
-                      
-                              <div class="links">
-                                  <a href=""><i class="fa-brands fa-github"></i></a>
-                                  <a href=""><i class="fa-solid fa-link"></i></a>
-                              </div>
-                          </div>
-                      </div>
+                        sdfsdf
                       </div>
                       <div class="swiper-slide">Slide 4</div>
-                      <div class="swiper-slide">Slide 5</div>
-                      <div class="swiper-slide">Slide 6</div>
-                      <div class="swiper-slide">Slide 7</div>
-                      <div class="swiper-slide">Slide 8</div>
-                      <div class="swiper-slide">Slide 9</div>
                     </div>
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
@@ -199,6 +153,6 @@
         </section>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/renderProjects.js"></script>
 </body>
 </html>
