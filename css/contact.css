@@ -1,0 +1,81 @@
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 200px;
+    width: 100vw;
+    position: absolute;
+    left: -10vw;
+    margin-top: 200px;
+    background-color: var(--dark-gray);
+
+    color: #ebebeb;
+}
+
+#contact header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 30%;
+    text-align: center;
+}
+
+#contact main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.contacts .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    color: #ebebeb;
+}
+
+.contacts .social a {
+    color: #ebebeb;
+    font-size: 2em;
+    display: block;
+    transition: .5s;
+}
+
+.contacts .social a:hover {
+    color: var(--light-gray);
+    scale: 1.1;
+}
+
+.emails {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.emails a {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.emails a:hover {
+    color: var(--light-gray);
+}
+
+.email-icon {
+    position: absolute;
+    left: -25px;
+}
+
+.copied {
+    color: rgb(165, 252, 165);
+}
