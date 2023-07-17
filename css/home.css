@@ -40,11 +40,11 @@
 #home > main > div.content > article p {
     font-size: 1.5em;
     font-weight: 600;
-    color: #5b5b5b;
+    color: var(--dark-gray);
 }
 
 #home > main > div.content > article div.console{
-    background-color: #5b5b5b;
+    background-color: var(--dark-gray);
     color: rgb(235, 235, 235);
     padding: 20px;
     box-sizing: border-box;
@@ -69,12 +69,12 @@
 #home > main > div.content > article footer a i{
     transition: .5s;
     font-size: 3em;
-    color: #5b5b5b;
+    color: var(--dark-gray);
 }
 
 #home > main > div.content > article footer a i:hover {
     transform: translate(4px,-3px);
-    color: rgb(150, 150, 150);
+    color: var(--light-gray);
 }
 
 #home > main > div.content > aside {
