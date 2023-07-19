@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <title>Hitallo Azevedo</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hitallo Azevedo</title>
 
+    <link rel="stylesheet" href="./css/media.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/portifolio.css">
-    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/swipeDown.css">
     <link rel="stylesheet" href="./css/cdn.jsdelivr.net_npm_swiper@10.0.4_swiper-bundle.min.css">
 
@@ -17,14 +20,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    
     <script src="https://kit.fontawesome.com/98da144417.js" crossorigin="anonymous"></script>
+    <script src="./js/copyEmail.js" defer></script>
     <script src="./js/scrollHeaderAnimation.js" defer></script>
     <script src="./js/outputAnimation.js" defer></script>
-    <script src="./js/swipeDownAnimation.js" defer></script>
+    <script src="./js/renderProjects.js" defer></script>
     <script src="./js/swiper.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-
+    <script src="./js/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.js"></script>
 </head>
 <body>
     <header id="nav-menu">
@@ -40,48 +42,56 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#portifolio">Portifolio</a></li>
-                <li><a href="#technologies">Technologies</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <section id="home">
             <main>
                 <div class="content">
                     <article>
                         <p>Hello World,</p>
+
                         <h2>I am a <br> Web Developer</h2>
+
                         <div class="console">
                             <p>
                                 console.log(<br>
                                 <span>'Welcome to my portifolio website!'</span><br>
                                 );
                             </p>
+
                             <br>
+
                             <p id="console-output">>>> </p>
                         </div>
+
                         <footer>
-                            <a href="https://github.com/hitalloazevedo" target="_blank"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://www.linkedin.com/in/hitallo-azevedo-1a199a21a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/hitalloazevedo" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/hitallo-azevedo-1a199a21a/" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
                         </footer>
                     </article>
+
                     <aside>
                         <img src="img/Programming-amico.svg" alt="homem-navegando-no-computador">
                     </aside>
                 </div>
-<!-- 
-                <div class="swipe-down">
-                    <div class="swipe-down-home">
-                        <i class="fa-solid fa-angles-down"></i>
-                    </div>
-                </div> -->
             </main>
         </section>
+
         <section id="about">
             <header>
                 <h2>About me</h2>
             </header>
+
             <main>
                 <div class="about-content">
                     <div class="thanks">
@@ -90,69 +100,157 @@
                             let me talk a litte bit about me.
                         </p>
                     </div>
+
                     <p>
                         Hey there! I'm Hitallo Azevedo, and I'm 17 years old.
                         I study web development with a focus on front-end, I chose this area because it's a world of opportunities where the only limit is your creativity. My first experience about programming was in 2020 with python, I fell in love, since then I have been studying and improving my skills every day, to be honest in my opinion to achieve success in this career it's too important be curious and have hungry about knowledge.
                     </p>
                 </div>
             </main>
-            <footer>
-                <!-- <div class="swipe-down">
-                    <div class="swipe-down-about">
-                        <i class="fa-solid fa-angles-down"></i>
-                    </div> -->
-            </footer>
         </section>
+
         <section id="portifolio">
             <header>
-                <h2>Projects</h2>
+                <h2>Portifolio</h2>
             </header>
+
             <main>
                 <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                
-                        <div class="card ">
+                    <div class="swiper-wrapper">   
+                        <!-- Card structure -->
+                        <!-- <div class="card ">
                           <div class="image-content">
                               <span class="overlay"></span>
                       
                               <div class="card-image">
-                                  <img src="./img/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.avif" class="card-img">
+                                  <img src="" class="card-img">
                               </div>
                           </div>
                       
                           <div class="card-content">
                               <h2 class="name">
-                                  Hitallo Azevedo
                               </h2>
                               <p class="description">
-                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dignissimos eveniet magnam ipsa, quaerat iste inventore dicta debitis rerum expedita quisquam, repellat beatae fuga velit tenetur at. Cum, illum accusamus?
                               </p>
                       
                               <div class="links">
-                                  <a href=""><i class="fa-brands fa-github"></i></a>
-                                  <a href=""><i class="fa-solid fa-link"></i></a>
+                                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                                  <a href="#"><i class="fa-solid fa-link"></i></a>
                               </div>
                           </div>
-                      </div>
-                
-                      </div>
-                      <div class="swiper-slide">
-                        fdsdaf
-                      </div>
-                      <div class="swiper-slide"> 
-                        sdfsdf
-                      </div>
-                      <div class="swiper-slide">Slide 4</div>
+                      </div> -->
                     </div>
+
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-pagination"></div>
-                  </div>
+                </div>
+            </main>
+        </section>
+
+        <section id="skills">
+            <header>
+                <h2>Skills</h2>
+            </header>
+
+            <main>
+                <section class="skills">
+                    <div class="hard-skills">
+                        <div class="hard-skills-content">
+                            <div>
+                                <i class="fa-brands fa-html5" style="color: rgb(248, 67, 12);"></i>
+                                <p>Html</p>
+                            </div>
+                            
+                            <div>
+                                <i class="fa-brands fa-css3-alt" style="color: rgb(17, 95, 240);"></i>
+                                <p>Css</p>
+                            </div>
+                            
+                            <div>
+                                <i class="fa-brands fa-js" style="color: rgb(247, 232, 30);"></i>
+                                <p>Javascript</p>
+                            </div>
+                            
+                            <div>
+                                <i class="fa-brands fa-python" style="color: rgb(61, 61, 61);;"></i>
+                                <p>Python</p>
+                            </div>
+                            
+                            <div>
+                                <i class="fa-brands fa-git-alt" style="color: rgb(243, 113, 21);"></i>
+                                <p>Git</p>
+                            </div>
+                            <div>
+                                <i class="fa-brands fa-github" style="color: rgb(61, 61, 61);"></i>
+                                <p>Github</p>
+                            </div>
+                            
+                            <div>
+                                <i class="fa-solid fa-database" style="color: rgb(86, 146, 180);"></i>
+                                <p>MySQL</p>
+                            </div>
+                            
+                            <div>
+                                <i class="fa-solid fa-language" style="color: rgb(61, 61, 61);;"></i>
+                                <p>Intermediate English</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="soft-skills">   
+                        <header>
+                            <h3>
+                                Soft Skills
+                            </h3>
+                        </header>
+
+                        <div>
+                            <ul>
+                                <li>Team Work</li>
+                                <li>Comunication</li>
+                                <li>Fast Learning</li>
+                                <li>Adaptability</li>
+                                <li>Curiosity</li>
+                                <li>Problem solving</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
             </main>
         </section>
     </main>
 
-    <script src="./js/renderProjects.js"></script>
+    <footer id="contact">
+        <header>
+            <h3>Contact me</h3>
+        </header>
+
+        <main>
+            <div class="contacts">
+                <div class="social">
+                    <a href="https://github.com/hitalloazevedo" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+                    <a href="https://www.linkedin.com/in/hitallo-azevedo-1a199a21a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+
+                <div class="emails">
+                    <p class="email-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </p>
+
+                    <a id="email1">
+                        azevedohitallo@gmail.com
+                        <i class="fa-regular fa-copy"></i>
+                    </a>
+                    
+                    <a id="email2">
+                            hitalloazevedo06@gmail.com
+                            <i class="fa-regular fa-copy"></i>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </footer>
 </body>
 </html>
