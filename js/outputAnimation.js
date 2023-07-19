@@ -1,8 +1,8 @@
 const output = document.querySelector('#console-output')
 
 async function typeWriter(text, element) {
-    let textArray = text.split('')
-    let stringReverse = [...textArray].reverse()
+    let textArray      =   text.split('')
+    let stringReverse  =   [...textArray].reverse()
 
     while (true) {
         for (let l in textArray) {

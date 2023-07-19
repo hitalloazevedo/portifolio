@@ -1,5 +1,5 @@
-const header = document.querySelector('#nav-menu')
-const options = document.querySelectorAll('#nav-menu nav ul li a')
+const header   =  document.querySelector('#nav-menu')
+const options  =  document.querySelectorAll('#nav-menu nav ul li a')
 
 window.addEventListener('scroll', () => {
     if (window.scrollY > 80) {
