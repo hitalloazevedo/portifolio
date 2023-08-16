@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    width: 50%;
+    width: 60%;
     height: 500px;
     padding: 30px;
 }
@@ -45,8 +45,10 @@
 
 #home > main > div.content > article div.console{
     background-color: var(--dark-gray);
+    width: 80%;
+    min-width: 550px;
     color: rgb(235, 235, 235);
-    padding: 20px;
+    padding: 30px;
     box-sizing: border-box;
     border-radius: 15px;
     box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.719);
@@ -78,11 +80,12 @@
 }
 
 #home > main > div.content > aside {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: space-evenly;
 }
 
 #home > main > div.content > aside img {
-    width: 500px;
+    width: 80%;
+    min-width: 440px
 }

@@ -1,0 +1,93 @@
+@media screen and (max-width: 1600px) {
+
+    body {
+        width: 90%;
+    }
+
+    #nav-menu {
+        padding: 0 8em;
+    }
+
+    #nav-menu > div h1 {
+        font-size: 1.5em;
+    }
+    
+    #nav-menu > div > i {
+        font-size: 1.7em;
+    }
+
+    #nav-menu nav ul li {
+        font-size: 1em;
+    }
+
+    #home > main > div.content > article p {
+        font-size: 1.3em;
+    }
+
+    #home > main > div.content > article h2 {
+        font-size: 2.5em;
+    }
+
+    #home > main > div.content > article div.console{
+        min-width: 500px;
+        padding: 20px;
+    }
+
+    #home > main > div.content > article div.console p {
+        font-size: 1.3em;
+    }
+
+    #home > main > div.content > article footer a i{
+        font-size: 2.5em;
+    }
+
+    #home > main > div.content > aside img {
+        width: 80%;
+        min-width: 380px
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    #nav-menu > div h1 {
+        font-size: 1.4em;
+    }
+    
+    #nav-menu > div > i {
+        font-size: 1.6em;
+    }
+
+    #nav-menu nav ul li {
+        font-size: .9em;
+    }
+
+    #home > main > div.content > article p {
+        font-size: 1.1em;
+    }
+
+    #home > main > div.content > article h2 {
+        font-size: 2em;
+    }
+    
+    #home > main > div.content > article div.console{
+        min-width: 400px;
+        padding: 20px;
+    }
+
+    #home > main > div.content > article div.console p {
+        font-size: 1.1em;
+    }
+
+    #home > main > div.content > aside img {
+        width: 70%;
+        min-width: 320px
+    }
+
+    #home > main > div.content > article footer a i{
+        font-size: 2.2em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    
+}

@@ -15,6 +15,48 @@ const projects = [
             githubLink: "",
             linkedinLink: "",
             imageUri: "../img/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.avif"
+        },
+        {
+            name: "project name",
+            description: "a little description",
+            githubLink: "",
+            linkedinLink: "",
+            imageUri: ""
+        },
+        {
+            name: "Facebook Clone",
+            description: "hello, welcome",
+            githubLink: "",
+            linkedinLink: "",
+            imageUri: "../img/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.avif"
+        },
+        {
+            name: "project name",
+            description: "a little description",
+            githubLink: "",
+            linkedinLink: "",
+            imageUri: ""
+        },
+        {
+            name: "Facebook Clone",
+            description: "hello, welcome",
+            githubLink: "",
+            linkedinLink: "",
+            imageUri: "../img/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.avif"
+        },
+        {
+            name: "project name",
+            description: "a little description",
+            githubLink: "",
+            linkedinLink: "",
+            imageUri: ""
+        },
+        {
+            name: "Facebook Clone",
+            description: "hello, welcome",
+            githubLink: "",
+            linkedinLink: "",
+            imageUri: "../img/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.avif"
         }
 ]
 
@@ -45,17 +87,17 @@ function createCard(obj) {
     title.classList.add('name')
     description.classList.add('description')
     links.classList.add('links')
-    githubLink.innerHTML += '<i class="fa-brands fa-github"></i>'
-    linkedinLink.innerHTML += '<i class="fa-solid fa-link"></i>'
-    githubLink.target = '_blank'
-    linkedinLink.target = '_blank'
+    githubLink.innerHTML    =   '<i class="fa-brands fa-github"></i>'
+    linkedinLink.innerHTML  =   '<i class="fa-solid fa-link"></i>'
+    githubLink.target       =   '_blank'
+    linkedinLink.target     =   '_blank'
 
 
-    title.innerText = obj.name
-    description.textContent = obj.description
-    githubLink.href = obj.githubLink
-    linkedinLink.href = obj.linkedinLink
-    img.src = obj.imageUri
+    title.innerText          =   obj.name
+    description.textContent  =   obj.description
+    githubLink.href          =   obj.githubLink
+    linkedinLink.href        =   obj.linkedinLink
+    img.src                  =   obj.imageUri
 
 
     cardImage.appendChild(img)
