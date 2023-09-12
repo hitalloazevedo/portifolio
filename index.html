@@ -29,197 +29,181 @@
     <script src="./js/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.js"></script>
 </head>
 <body>
-    <header id="nav-menu">
-        <div>
-            <i class="fa-solid fa-laptop-code"></i>
-            <h1>
-                Hitallo Azevedo
-            </h1>
-        </div>
-
-        <nav>
-            <ul class="menus">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portifolio">Portifolio</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="home">
-            <main>
-                <div class="content">
-                    <article>
-                        <p>Hello World,</p>
-
-                        <h2>I am a <br> Web Developer</h2>
-
-                        <div class="console">
+    <div id="body-container">
+        <header id="nav-menu">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h1>
+                    Hitallo Azevedo
+                </h1>
+            </div>
+            <nav>
+                <ul class="menus">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portifolio">Portifolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i id="menu-icon" class="fa-solid fa-bars"></i>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+                <main>
+                    <div class="content">
+                        <article>
+                            <p>Hello World,</p>
+                            <h2>I am a <br> Web Developer</h2>
+                            <div class="console">
+                                <p>
+                                    console.log(<br>
+                                    <span>'Welcome to my portifolio website!'</span><br>
+                                    );
+                                </p>
+                                <br>
+                                <p id="console-output">>>> </p>
+                            </div>
+                            <footer>
+                                <a href="https://github.com/hitalloazevedo" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/hitallo-azevedo-1a199a21a/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </footer>
+                        </article>
+                        <aside>
+                            <img src="img/Programming-amico.svg" alt="homem-navegando-no-computador">
+                        </aside>
+                    </div>
+                </main>
+            </section>
+            <section id="about">
+                <header>
+                    <h2>About me</h2>
+                </header>
+                <main>
+                    <div class="about-content">
+                        <div class="thanks">
                             <p>
-                                console.log(<br>
-                                <span>'Welcome to my portifolio website!'</span><br>
-                                );
+                                At first, thank you for visiting my website! <br>
+                                let me talk a litte bit about me.
                             </p>
-
-                            <br>
-
-                            <p id="console-output">>>> </p>
                         </div>
-
-                        <footer>
-                            <a href="https://github.com/hitalloazevedo" target="_blank">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-
-                            <a href="https://www.linkedin.com/in/hitallo-azevedo-1a199a21a/" target="_blank">
-                                <i class="fa-brands fa-linkedin"></i>
-                            </a>
-                        </footer>
-                    </article>
-
-                    <aside>
-                        <img src="img/Programming-amico.svg" alt="homem-navegando-no-computador">
-                    </aside>
-                </div>
-            </main>
-        </section>
-
-        <section id="about">
-            <header>
-                <h2>About me</h2>
-            </header>
-
-            <main>
-                <div class="about-content">
-                    <div class="thanks">
                         <p>
-                            At first, thank you for visiting my website! <br>
-                            let me talk a litte bit about me.
+                            Hey there! I'm Hitallo Azevedo, and I'm 17 years old.
+                            I study web development with a focus on front-end, I chose this area because it's a world of opportunities where the only limit is your creativity. My first experience about programming was in 2020 with python, I fell in love, since then I have been studying and improving my skills every day, to be honest in my opinion to achieve success in this career it's too important be curious and have hungry about knowledge.
                         </p>
                     </div>
-
-                    <p>
-                        Hey there! I'm Hitallo Azevedo, and I'm 17 years old.
-                        I study web development with a focus on front-end, I chose this area because it's a world of opportunities where the only limit is your creativity. My first experience about programming was in 2020 with python, I fell in love, since then I have been studying and improving my skills every day, to be honest in my opinion to achieve success in this career it's too important be curious and have hungry about knowledge.
-                    </p>
-                </div>
-            </main>
-        </section>
-
-        <section id="portifolio">
-            <header>
-                <h2>Portifolio</h2>
-            </header>
-
-            <main>
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">   
-                        <!-- Card structure -->
-                        <!-- <div class="card ">
-                          <div class="image-content">
-                              <span class="overlay"></span>
-                      
-                              <div class="card-image">
-                                  <img src="" class="card-img">
+                </main>
+            </section>
+            <section id="portifolio">
+                <header>
+                    <h2>Portifolio</h2>
+                </header>
+                <main>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <!-- Card structure -->
+                            <!-- <div class="card ">
+                              <div class="image-content">
+                                  <span class="overlay"></span>
+        
+                                  <div class="card-image">
+                                      <img src="" class="card-img">
+                                  </div>
                               </div>
-                          </div>
-                      
-                          <div class="card-content">
-                              <h2 class="name">
-                              </h2>
-                              <p class="description">
-                              </p>
-                      
-                              <div class="links">
-                                  <a href="#"><i class="fa-brands fa-github"></i></a>
-                                  <a href="#"><i class="fa-solid fa-link"></i></a>
+        
+                              <div class="card-content">
+                                  <h2 class="name">
+                                  </h2>
+                                  <p class="description">
+                                  </p>
+        
+                                  <div class="links">
+                                      <a href="#"><i class="fa-brands fa-github"></i></a>
+                                      <a href="#"><i class="fa-solid fa-link"></i></a>
+                                  </div>
                               </div>
-                          </div>
-                      </div> -->
+                          </div> -->
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
                     </div>
-
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </main>
-        </section>
-
-        <section id="skills">
-            <header>
-                <h2>Skills</h2>
-            </header>
-
-            <main>
-                <section class="skills">
-                    <div class="hard-skills">
-                        <div class="hard-skills-content">
-                            <div>
-                                <i class="fa-brands fa-html5" style="color: rgb(248, 67, 12);"></i>
-                                <p>Html</p>
-                            </div>
-                            
-                            <div>
-                                <i class="fa-brands fa-css3-alt" style="color: rgb(17, 95, 240);"></i>
-                                <p>Css</p>
-                            </div>
-                            
-                            <div>
-                                <i class="fa-brands fa-js" style="color: rgb(247, 232, 30);"></i>
-                                <p>Javascript</p>
-                            </div>
-                            
-                            <div>
-                                <i class="fa-brands fa-python" style="color: rgb(61, 61, 61);;"></i>
-                                <p>Python</p>
-                            </div>
-                            
-                            <div>
-                                <i class="fa-brands fa-git-alt" style="color: rgb(243, 113, 21);"></i>
-                                <p>Git</p>
-                            </div>
-                            <div>
-                                <i class="fa-brands fa-github" style="color: rgb(61, 61, 61);"></i>
-                                <p>Github</p>
-                            </div>
-                            
-                            <div>
-                                <i class="fa-solid fa-database" style="color: rgb(86, 146, 180);"></i>
-                                <p>MySQL</p>
-                            </div>
-                            
-                            <div>
-                                <i class="fa-solid fa-language" style="color: rgb(61, 61, 61);;"></i>
-                                <p>Intermediate English</p>
+                </main>
+            </section>
+            <section id="skills">
+                <header>
+                    <h2>Skills</h2>
+                </header>
+                <main>
+                    <section class="skills">
+                        <div class="hard-skills">
+                            <div class="hard-skills-content">
+                                <div>
+                                    <i class="fa-brands fa-html5" style="color: rgb(248, 67, 12);"></i>
+                                    <p>Html</p>
+                                </div>
+        
+                                <div>
+                                    <i class="fa-brands fa-css3-alt" style="color: rgb(17, 95, 240);"></i>
+                                    <p>Css</p>
+                                </div>
+        
+                                <div>
+                                    <i class="fa-brands fa-js" style="color: rgb(247, 232, 30);"></i>
+                                    <p>Javascript</p>
+                                </div>
+        
+                                <div>
+                                    <i class="fa-brands fa-python" style="color: rgb(61, 61, 61);;"></i>
+                                    <p>Python</p>
+                                </div>
+        
+                                <div>
+                                    <i class="fa-brands fa-git-alt" style="color: rgb(243, 113, 21);"></i>
+                                    <p>Git</p>
+                                </div>
+                                <div>
+                                    <i class="fa-brands fa-github" style="color: rgb(61, 61, 61);"></i>
+                                    <p>Github</p>
+                                </div>
+        
+                                <div>
+                                    <i class="fa-solid fa-database" style="color: rgb(86, 146, 180);"></i>
+                                    <p>MySQL</p>
+                                </div>
+        
+                                <div>
+                                    <i class="fa-solid fa-language" style="color: rgb(61, 61, 61);;"></i>
+                                    <p>Intermediate English</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="soft-skills">   
-                        <header>
-                            <h3>
-                                Soft Skills
-                            </h3>
-                        </header>
-
-                        <div>
-                            <ul>
-                                <li>Team Work</li>
-                                <li>Comunication</li>
-                                <li>Fast Learning</li>
-                                <li>Adaptability</li>
-                                <li>Curiosity</li>
-                                <li>Problem solving</li>
-                            </ul>
+                        <div class="soft-skills">
+                            <header>
+                                <h3>
+                                    Soft Skills
+                                </h3>
+                            </header>
+                            <div>
+                                <ul>
+                                    <li>Team Work</li>
+                                    <li>Comunication</li>
+                                    <li>Fast Learning</li>
+                                    <li>Adaptability</li>
+                                    <li>Curiosity</li>
+                                    <li>Problem solving</li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </section>
-            </main>
-        </section>
-    </main>
+                    </section>
+                </main>
+            </section>
+        </main>
+    </div>
 
     <footer id="contact">
         <header>
