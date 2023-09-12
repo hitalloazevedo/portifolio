@@ -1,12 +1,15 @@
-#contact {
+body {
+    position: relative;
+}
+
+footer#contact {
     display: flex;
     justify-content: center;
     flex-direction: column;
 
     height: 200px;
-    width: 99.2vw;
+    width: 100%;
     position: absolute;
-    left: -10vw;
     margin-top: 200px;
     background-color: var(--dark-gray);
 

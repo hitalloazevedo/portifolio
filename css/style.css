@@ -25,7 +25,7 @@ html, body {
 }
 
 body {
-    width: 80%;
+    width: 100%;
     margin: auto;
     color: #0a0a0a;
     position: relative;
@@ -34,4 +34,11 @@ body {
 body > main {
     position: relative;
     top: 7em;
+}
+
+#body-container {
+    width: 80%;
+    margin: auto;
+    color: #0a0a0a;
+    position: relative;
 }
