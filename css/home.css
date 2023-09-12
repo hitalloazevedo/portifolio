@@ -5,6 +5,7 @@
     position: relative;
     scroll-behavior: smooth;
     scroll-margin-top: 14em;
+    margin-top: 7em;
 }
 
 #home main {

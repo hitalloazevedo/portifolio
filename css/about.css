@@ -34,6 +34,7 @@
 #about .about-content p {
     color: var(--dark-gray);
     font-size: 1.5em;
+    max-height: 500px;
     line-height: 35px;
     width: 50%;
     text-align: justify;
