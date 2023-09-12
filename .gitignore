@@ -1,0 +1,10 @@
+
+node_modules
+*.md
+*.yml
+node_modules/.bin/nodemon.cmd
+node_modules/.bin/nodetouch
+*.cmd
+package.json
+package-lock.json
+test.js
