@@ -27,15 +27,14 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    width: 60%;
+    /* width: 60%; */
     height: 500px;
     padding: 30px;
 }
 
 #home > main > div.content > article h2 {
     color: #000000;
-    font-size: 3em;
-    margin: 20px 0px 30px 40px;
+    /* font-size: 3em; */
 }
 
 #home > main > div.content > article p {
@@ -47,7 +46,7 @@
 #home > main > div.content > article div.console{
     background-color: var(--dark-gray);
     width: 80%;
-    min-width: 550px;
+    /* min-width: 550px; */
     color: rgb(235, 235, 235);
     padding: 30px;
     box-sizing: border-box;
