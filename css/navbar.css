@@ -62,3 +62,7 @@
 .scrolla:hover {
     color: var(--light-gray) !important;
 }
+
+#menu-icon {
+    display: none;
+}
