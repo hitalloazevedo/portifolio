@@ -10,3 +10,7 @@ menuIcon.addEventListener('click', () => {
     }
 })
 
+menuOptions.addEventListener('click', () => {
+    menuOptions.style.display = 'none'
+})
+
