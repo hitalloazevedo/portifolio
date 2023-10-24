@@ -55,6 +55,13 @@
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.527);
 }
 
+.scrollb {
+    background-color: var(--dark-gray);
+    height: 6em !important;
+    color: #ebebeb !important;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.527);
+}
+
 .scrolla {
     color: #ebebeb !important;
 }

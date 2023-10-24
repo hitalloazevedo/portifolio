@@ -14,7 +14,7 @@
 
     header#nav-menu {
         justify-content: space-evenly;
-        position: relative;
+        position: fixed;
         /* background-color: rgba(0, 0, 0, 0.13); */
     }
 
@@ -32,8 +32,13 @@
         /* background-color: rgb(65, 153, 124); */
         padding: 0px 0px;
         width: 100%;
-        top: 3.5em;
+        height: 300px;
+        top: 3.4em;
         text-align: center;
+    }
+
+    #nav-menu .menus i {
+        padding: 5px;
     }
 
     header#nav-menu > div > h1 {
@@ -53,7 +58,8 @@
     section#home {
         display: block;
         width: 100%;
-        margin: 0;
+        min-height: 60vh;
+        margin-top: 180px;
     }
 
     section#home > main {
@@ -95,7 +101,16 @@
     }
 
     section#about {
-        display: none;
+        display: block;
+    }
+
+    #about header h2 {
+        font-size: 1em;
+    }
+
+    #about .about-content p {
+        font-size: 1em;
+        width: 80%;
     }
 
     section#skills {
