@@ -1,10 +1,10 @@
 #nav-menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     height: 7em;
+    min-width: 320px;
     width: 100%;
-    padding: 0 13.5em;
     color: var(--dark-gray);
     box-sizing: border-box;
     top: 0;
@@ -17,6 +17,8 @@
 #nav-menu > div {
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
     gap: 1em;
 }
 

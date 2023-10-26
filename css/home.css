@@ -65,7 +65,7 @@
 #home > main > div.content > article footer {
     display: flex;
     margin: 30px 0px 0px 20px;
-    gap: 30px;
+    gap: 20px;
 }
 
 #home > main > div.content > article footer a i{

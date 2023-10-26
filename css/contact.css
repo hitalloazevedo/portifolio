@@ -7,10 +7,10 @@ footer#contact {
     justify-content: center;
     flex-direction: column;
 
-    height: 200px;
+    height: 180px;
     width: 100%;
     position: absolute;
-    margin-top: 200px;
+    margin-top: 350px;
     background-color: var(--dark-gray);
 
     color: #ebebeb;

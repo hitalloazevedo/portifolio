@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px){
+@media screen and (max-width: 480px){
     div#body-container {
         width: 100%;
         margin: 0;
@@ -10,12 +10,9 @@
 
     #nav-menu {
         height: 5em;
-    }
-
-    header#nav-menu {
-        justify-content: space-evenly;
         position: fixed;
-        /* background-color: rgba(0, 0, 0, 0.13); */
+        display: flex;
+        justify-content: space-evenly;
     }
 
     #nav-menu nav {
@@ -32,17 +29,23 @@
         /* background-color: rgb(65, 153, 124); */
         padding: 0px 0px;
         width: 100%;
-        height: 300px;
+        height: 110px !important;
         top: 3.4em;
         text-align: center;
+        font-size: .8em;
     }
 
     #nav-menu .menus i {
         padding: 5px;
     }
 
+    .menus li a {
+        font-size: 1em;
+        font-weight: 600;
+    }
+
     header#nav-menu > div > h1 {
-        font-size: .9em;
+        font-size: 1.2em;
     }
 
     header#nav-menu > div > i {
@@ -68,21 +71,27 @@
 
     #home > main > div.content {
         height: 400px;
+        justify-content: center;
     }
 
     #home > main > div.content > article {
         justify-content: center;
-        width: 320px;
+        width: 90%;
         padding: 10px;
     }
 
-    #home > main > div.content > article > p {
-        font-size: 1em;
-        padding-left: 20px;
+    #home > main > div.content > article .hello {
+        font-size: 1.1em;
+        padding-left: 10px;
+    }
+
+    #home > main > div.content > article .console-text{
+        font-size: 1.1em;
+        padding-left: 10px;
     }
 
     #home > main .content > article h2 {
-        font-size: 1.2em;
+        font-size: 1.5em;
         margin: 10px 0px 30px 60px;
     }
 
@@ -94,11 +103,11 @@
     }
 
     #home > main > div.content > article footer {
-        margin: 20px 0px 0px 25px;
+        margin: 20px 0px 0px 5px;
     }
 
     #home > main > div.content > article footer a i {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     #home > main > div.content > aside {
@@ -110,12 +119,12 @@
     }
 
     #about header h2 {
-        font-size: 1em;
+        font-size: 1.2em;
         display: block;
     }
 
     #about .about-content p {
-        font-size: .9em;
+        font-size: 1em;
         width: 85%;
     }
 
@@ -123,115 +132,101 @@
         display: block;
         margin-top: 30px;
     }
-
-    section#skills {
-        display: none;
-    }
-
-    section#portifolio {
-        display: none;
-    }
-
-    footer#contact {
-        display: none;
-    }
-}
-
-
-
-@media screen and (max-width: 1600px) {
-
-    div#body-container {
-    }
-
-    #nav-menu {
-        padding: 0 8em;
-    }
-
-    #nav-menu > div h1 {
-        font-size: 1.5em;
-    }
     
-    #nav-menu > div > i {
-        font-size: 1.7em;
+    section#portifolio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
     }
 
-    #nav-menu nav ul li {
+    #portifolio header {
+        height: 20px;
+    }
+
+    #portifolio header h2 {
+
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .name {
         font-size: 1em;
     }
-    #home > main > div.content > article p {
-    }
-
-    #home > main > div.content > article h2 {
-    }
-
-    #home > main > div.content > article div.console{
-    }
-
-    #home > main > div.content > article div.console p {
-        font-size: 1.3em;
-    }
-
-    #home > main > div.content > article footer a i{
-    }
-
-    #home > main > div.content > aside img {
-        width: 80%;
-        min-width: 380px
-    } 
-}
-
-@media screen and (max-width: 1200px) {
-    #nav-menu > div h1 {
-        font-size: 1.4em;
-    }
     
-    #nav-menu > div > i {
-        font-size: 1.6em;
+    .description {
+        font-size: .8em;
     }
 
-    #nav-menu nav ul li {
+    section#skills {
+        display: block;
+
+        height: 100vh;
+        min-height: 850px;
+        background-color: rgb(255, 255, 255);
+        scroll-margin-top: 9em;
+    }
+
+    #skills header h2 {
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .skills .hard-skills .hard-skills-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 30px;  
+        row-gap: 30px;
+        width: 90%;
+        padding: 10px;
+    }
+
+    .skills .hard-skills .hard-skills-content > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(235, 235, 235);
+        width: 40%;
+        min-width: 120px;
+        max-width: 140px;
+        height: 40%;
+    }
+
+    .skills .hard-skills .hard-skills-content > div p {
         font-size: .9em;
     }
 
-    #home > main > div.content > article p {
+    .skills .hard-skills .hard-skills-content > div i{
+        font-size: 4em;
     }
 
-    #home > main > div.content > article h2 {
-    }
+    .skills .soft-skills {
+        margin-top: 15em;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
     
-    #home > main > div.content > article div.console{
     }
 
-    #home > main > div.content > article div.console p {
+    .skills .soft-skills header h3 {
+        font-size: 1.2em;
+    }
+
+    .skills .soft-skills header h3::before {
+        top: 0px;
+    }
+
+    .skills .soft-skills ul li {
         font-size: 1.1em;
     }
 
-    #home > main > div.content > aside img {
-        width: 70%;
-        min-width: 320px
-    }
-
-    #home > main > div.content > article footer a i{
-
+    #contact header h3{
+        font-size: 1.2em;
     }
 }
-
-@media screen and (max-width: 1024px) {
-    
-}
-
-/* @media screen and (max-width: 480px){
-    #home img {
-        display: none;
-    }
-
-    #nav-menu .menus {
-        display: none;
-    }
-
-    #menu-icon {
-        display: block;
-    }
-} */
-
