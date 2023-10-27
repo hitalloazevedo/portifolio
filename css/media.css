@@ -260,3 +260,97 @@
         font-size: 1em;
     }
 }
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    #nav-menu nav {
+        width: 70%;
+    }
+
+    #nav-menu > div {
+        gap: .5em;
+        width: 30%;
+        justify-content: center;
+        margin-left: 10px;
+    }
+
+    #nav-menu .menus {
+        display: block;
+        justify-content: space-around;
+    }
+
+    #nav-menu nav ul {
+        gap: 0em;
+    }
+
+    #nav-menu nav ul li {
+        font-size: .8em;
+    }
+
+    header#nav-menu > div > h1 {
+        font-size: 1em;
+        max-width: 110px;
+    }
+
+    header#nav-menu > div > i {
+        font-size: 2em;
+    }
+
+    #home {
+
+    }
+
+    section#home > main {
+    }
+
+    #home > main > div.content {
+
+    }
+
+    #home > main > div.content > article {
+
+    }
+
+    #home > main > div.content > article .hello {
+
+    }
+
+    #home > main > div.content > article .console-text{
+
+    }
+
+    #home > main .content > article h2 {
+
+    }
+
+    #home > main> div.content > article div.console {
+
+    }
+
+    #home > main > div.content > article footer {
+
+    }
+
+    #home > main > div.content > article footer a i {
+
+    }
+
+    #home > main > div.content > aside {
+
+    }
+
+    .content aside img{
+        display: none;
+    }
+
+    #about {
+        display: none;
+    }
+
+    #portifolio {
+        display: none;
+    }
+
+    #skills {
+        display: none;
+    }
+}
