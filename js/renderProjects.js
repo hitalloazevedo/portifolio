@@ -1,65 +1,6 @@
+import { projects } from "./db.js"
+
 const swiperWrapper = document.querySelector('.swiper-wrapper')
-
-
-const projects = [
-        {
-            name: "project name",
-            description: "a little description",
-            githubLink: "",
-            linkedinLink: "",
-            imageUri: ""
-        },
-        {
-            name: "Facebook Clone",
-            description: "hello, welcome",
-            githubLink: "",
-            linkedinLink: "",
-            imageUri: "../img/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.avif"
-        },
-        {
-            name: "project name",
-            description: "a little description",
-            githubLink: "",
-            linkedinLink: "",
-            imageUri: ""
-        },
-        {
-            name: "Facebook Clone",
-            description: "hello, welcome",
-            githubLink: "",
-            linkedinLink: "",
-            imageUri: "../img/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.avif"
-        },
-        {
-            name: "project name",
-            description: "a little description",
-            githubLink: "",
-            linkedinLink: "",
-            imageUri: ""
-        },
-        {
-            name: "Facebook Clone",
-            description: "hello, welcome",
-            githubLink: "",
-            linkedinLink: "",
-            imageUri: "../img/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.avif"
-        },
-        {
-            name: "project name",
-            description: "a little description",
-            githubLink: "",
-            linkedinLink: "",
-            imageUri: ""
-        },
-        {
-            name: "Facebook Clone",
-            description: "hello, welcome",
-            githubLink: "",
-            linkedinLink: "",
-            imageUri: "../img/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.avif"
-        }
-]
-
 
 function createCard(obj) {
 
@@ -74,7 +15,7 @@ function createCard(obj) {
     let description    =    document.createElement('p')
     let links          =    document.createElement('div')
     let githubLink     =    document.createElement('a')
-    let linkedinLink   =    document.createElement('a')
+    let projectLink   =    document.createElement('a')
 
     
     swiperSlide.classList.add('swiper-slide')
@@ -88,15 +29,15 @@ function createCard(obj) {
     description.classList.add('description')
     links.classList.add('links')
     githubLink.innerHTML    =   '<i class="fa-brands fa-github"></i>'
-    linkedinLink.innerHTML  =   '<i class="fa-solid fa-link"></i>'
+    projectLink.innerHTML  =   '<i class="fa-solid fa-link"></i>'
     githubLink.target       =   '_blank'
-    linkedinLink.target     =   '_blank'
+    projectLink.target     =   '_blank'
 
 
     title.innerText          =   obj.name
     description.textContent  =   obj.description
     githubLink.href          =   obj.githubLink
-    linkedinLink.href        =   obj.linkedinLink
+    projectLink.href        =   obj.projectLink
     img.src                  =   obj.imageUri
 
 
@@ -106,7 +47,7 @@ function createCard(obj) {
     cardContent.appendChild(title)
     cardContent.appendChild(description)
     links.appendChild(githubLink)
-    links.appendChild(linkedinLink)
+    links.appendChild(projectLink)
     cardContent.appendChild(links)
     card.appendChild(imageContent)
     card.appendChild(cardContent)
