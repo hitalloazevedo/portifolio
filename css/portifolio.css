@@ -143,7 +143,7 @@
     width: 96%;
     object-fit: cover;
     border-radius: 100%;
-    border: 4px solid var(--light-gray);
+    border: 3px solid var(--light-gray);
 }
 
 
