@@ -116,12 +116,22 @@
 
     section#about {
         display: block;
+        min-height: 90vh;
+    }
+
+    #about main {
+        min-height: 90%;
     }
 
     #about header h2 {
         font-size: 1.2em;
         display: block;
     }
+
+    #about .about-content {
+        margin-bottom: 40px;
+    }
+
 
     #about .about-content p {
         font-size: 1em;
@@ -214,19 +224,39 @@
     
     }
 
+    .skills .soft-skills header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .skills .soft-skills header h3 {
         font-size: 1.2em;
+        text-indent: 10px;
     }
 
     .skills .soft-skills header h3::before {
         top: 0px;
+        left: -3px;
     }
 
     .skills .soft-skills ul li {
         font-size: 1.1em;
     }
 
+    footer#contact {
+        height: 160px;
+    }
+
     #contact header h3{
         font-size: 1.2em;
+    }
+
+    .contacts {
+        justify-content: space-around;
+    }
+    
+    .emails a {
+        font-size: 1em;
     }
 }
