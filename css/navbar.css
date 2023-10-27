@@ -59,7 +59,7 @@
 
 .scrollb {
     background-color: var(--dark-gray);
-    height: 6em !important;
+    height: 4.5em !important;
     color: #ebebeb !important;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.527);
 }

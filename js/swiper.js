@@ -1,14 +1,6 @@
-let n = 0;
-
-if (document.body.style.width <= 321) {
-  n = 1;
-} else {
-  n = 2;
-}
-
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: n,
-  spaceBetween: 30,
+  slidesPerView: 1,
+  spaceBetween: 50,
   loop: true,
   pagination: {
     el: ".swiper-pagination",
