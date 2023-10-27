@@ -1,9 +1,9 @@
-let n = 0
+let n = 0;
 
 if (document.body.style.width <= 321) {
-  n = 1
+  n = 1;
 } else {
-  n = 2
+  n = 2;
 }
 
 var swiper = new Swiper(".mySwiper", {

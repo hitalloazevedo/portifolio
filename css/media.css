@@ -1,356 +1,374 @@
-@media screen and (max-width: 480px){
-    div#body-container {
-        width: 100%;
-        margin: 0;
-    }
-    
-    #home img {
-        display: none;
-    }
+@media screen and (max-width: 480px) {
+  div#body-container {
+    width: 100%;
+    margin: 0;
+  }
 
-    #nav-menu {
-        height: 5em;
-        position: fixed;
-        display: flex;
-        justify-content: space-evenly;
-    }
+  #home img {
+    display: none;
+  }
 
-    #nav-menu nav {
-        position: absolute;
-        width: 100%;
-        left: 0;
-    }
+  #nav-menu {
+    height: 5em;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+  }
 
+  #nav-menu nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
 
-    #nav-menu .menus {
-        position: absolute;
-        box-sizing: border-box;
-        display: none;
-        /* background-color: rgb(65, 153, 124); */
-        padding: 0px 0px;
-        width: 100%;
-        height: 110px !important;
-        top: 3.4em;
-        text-align: center;
-        font-size: .8em;
-    }
+  #nav-menu .menus {
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+    /* background-color: rgb(65, 153, 124); */
+    padding: 0px 0px;
+    width: 100%;
+    height: 110px !important;
+    top: 3.4em;
+    text-align: center;
+    font-size: 0.8em;
+    box-shadow: none;
+  }
 
-    #nav-menu .menus i {
-        padding: 5px;
-    }
+  #nav-menu .menus i {
+    padding: 5px;
+  }
 
-    .menus li a {
-        font-size: 1em;
-        font-weight: 600;
-    }
+  .menus li a {
+    font-size: 1em;
+    font-weight: 600;
+  }
 
-    header#nav-menu > div > h1 {
-        font-size: 1.2em;
-    }
+  header#nav-menu > div > h1 {
+    font-size: 1.2em;
+  }
 
-    header#nav-menu > div > i {
-        font-size: 1.1em;
-    }
+  header#nav-menu > div > i {
+    font-size: 1.1em;
+  }
 
-    #menu-icon {
-        display: block;
-        padding: 10px;
-        margin: 0 0 0 20px;
-    }
+  #menu-icon {
+    display: block;
+    padding: 10px;
+    margin: 0 0 0 20px;
+  }
 
-    section#home {
-        display: block;
-        width: 100%;
-        min-height: 50vh;
-        margin-top: 120px;
-    }
+  section#home {
+    display: block;
+    width: 100%;
+    min-height: 50vh;
+    margin-top: 120px;
+  }
 
-    section#home > main {
-        padding: 0;
-    }
+  section#home > main {
+    padding: 0;
+  }
 
-    #home > main > div.content {
-        height: 400px;
-        justify-content: center;
-    }
+  #home > main > div.content {
+    height: 400px;
+    justify-content: center;
+  }
 
-    #home > main > div.content > article {
-        justify-content: center;
-        width: 90%;
-        padding: 10px;
-    }
+  #home > main > div.content > article {
+    justify-content: center;
+    width: 90%;
+    padding: 10px;
+  }
 
-    #home > main > div.content > article .hello {
-        font-size: 1.1em;
-        padding-left: 10px;
-    }
+  #home > main > div.content > article .hello {
+    font-size: 1.1em;
+    padding-left: 10px;
+  }
 
-    #home > main > div.content > article .console-text{
-        font-size: 1.1em;
-        padding-left: 10px;
-    }
+  #home > main > div.content > article .console-text {
+    font-size: 1.1em;
+    padding-left: 10px;
+  }
 
-    #home > main .content > article h2 {
-        font-size: 1.5em;
-        margin: 10px 0px 30px 60px;
-    }
+  #home > main .content > article h2 {
+    font-size: 1.5em;
+    margin: 10px 0px 30px 60px;
+  }
 
-    #home > main> div.content > article div.console {
-        min-width: none; 
-        width: 100%;
-        font-size: .8em;
-        padding: 15px 6px;
-    }
+  #home > main > div.content > article div.console {
+    min-width: none;
+    width: 100%;
+    font-size: 0.8em;
+    padding: 15px 6px;
+  }
 
-    #home > main > div.content > article footer {
-        margin: 20px 0px 0px 5px;
-    }
+  #home > main > div.content > article footer {
+    margin: 20px 0px 0px 5px;
+  }
 
-    #home > main > div.content > article footer a i {
-        font-size: 1.8em;
-    }
+  #home > main > div.content > article footer a i {
+    font-size: 1.8em;
+  }
 
-    #home > main > div.content > aside {
-        width: 0px;
-    }
+  #home > main > div.content > aside {
+    width: 0px;
+  }
 
-    section#about {
-        display: block;
-        min-height: 90vh;
-    }
+  section#about {
+    display: block;
+    min-height: 90vh;
+  }
 
-    #about main {
-        min-height: 90%;
-    }
+  #about main {
+    min-height: 90%;
+  }
 
-    #about header h2 {
-        font-size: 1.2em;
-        display: block;
-    }
+  #about header h2 {
+    font-size: 1.2em;
+    display: block;
+  }
 
-    #about .about-content {
-        margin-bottom: 40px;
-    }
+  #about .about-content {
+    margin-bottom: 40px;
+  }
 
+  #about .about-content p {
+    font-size: 1em;
+    width: 85%;
+  }
 
-    #about .about-content p {
-        font-size: 1em;
-        width: 85%;
-    }
+  #about .about-content .thanks {
+    display: block;
+    margin-top: 30px;
+  }
 
-    #about .about-content .thanks {
-        display: block;
-        margin-top: 30px;
-    }
-    
-    section#portifolio {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        height: 90vh;
-    }
+  section#portifolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+  }
 
-    #portifolio header {
-        height: 20px;
-    }
+  #portifolio header {
+    height: 20px;
+  }
 
-    #portifolio header h2 {
+  #portifolio header h2 {
+    text-align: center;
+    font-size: 1.2em;
+  }
 
-        text-align: center;
-        font-size: 1.2em;
-    }
+  .name {
+    font-size: 1em;
+  }
 
-    .name {
-        font-size: 1em;
-    }
-    
-    .description {
-        font-size: .8em;
-    }
+  .description {
+    font-size: 0.8em;
+  }
 
-    section#skills {
-        display: block;
+  section#skills {
+    display: block;
 
-        height: 100vh;
-        min-height: 850px;
-        background-color: rgb(255, 255, 255);
-        scroll-margin-top: 9em;
-    }
+    height: 100vh;
+    min-height: 850px;
+    background-color: rgb(255, 255, 255);
+    scroll-margin-top: 9em;
+  }
 
-    #skills header h2 {
-        text-align: center;
-        font-size: 1.2em;
-    }
+  #skills header h2 {
+    text-align: center;
+    font-size: 1.2em;
+  }
 
-    .skills .hard-skills .hard-skills-content {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        column-gap: 30px;  
-        row-gap: 30px;
-        width: 90%;
-        padding: 10px;
-    }
+  .skills .hard-skills .hard-skills-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    width: 90%;
+    padding: 10px;
+  }
 
-    .skills .hard-skills .hard-skills-content > div {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        background-color: rgb(235, 235, 235);
-        width: 40%;
-        min-width: 120px;
-        max-width: 140px;
-        height: 40%;
-    }
+  .skills .hard-skills .hard-skills-content > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+    width: 40%;
+    min-width: 120px;
+    max-width: 140px;
+    height: 40%;
+  }
 
-    .skills .hard-skills .hard-skills-content > div p {
-        font-size: .9em;
-    }
+  .skills .hard-skills .hard-skills-content > div p {
+    font-size: 0.9em;
+  }
 
-    .skills .hard-skills .hard-skills-content > div i{
-        font-size: 4em;
-    }
+  .skills .hard-skills .hard-skills-content > div i {
+    font-size: 4em;
+  }
 
-    .skills .soft-skills {
-        margin-top: 15em;
-        height: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        align-items: center;
-    
-    }
+  .skills .soft-skills {
+    margin-top: 15em;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
 
-    .skills .soft-skills header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .skills .soft-skills header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .skills .soft-skills header h3 {
-        font-size: 1.2em;
-        text-indent: 10px;
-    }
+  .skills .soft-skills header h3 {
+    font-size: 1.2em;
+    text-indent: 10px;
+  }
 
-    .skills .soft-skills header h3::before {
-        top: 0px;
-        left: -3px;
-    }
+  .skills .soft-skills header h3::before {
+    top: 0px;
+    left: -3px;
+  }
 
-    .skills .soft-skills ul li {
-        font-size: 1.1em;
-    }
+  .skills .soft-skills ul li {
+    font-size: 1.1em;
+  }
 
-    footer#contact {
-        height: 160px;
-    }
+  footer#contact {
+    height: 160px;
+  }
 
-    #contact header h3{
-        font-size: 1.2em;
-    }
+  #contact header h3 {
+    font-size: 1.2em;
+  }
 
-    .contacts {
-        justify-content: space-around;
-    }
-    
-    .emails a {
-        font-size: 1em;
-    }
+  .contacts {
+    justify-content: space-around;
+  }
+
+  .emails a {
+    font-size: 1em;
+  }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px){
-    #nav-menu nav {
-        width: 70%;
-    }
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #body-container {
+    width: 100%;
+  }
 
-    #nav-menu > div {
-        gap: .5em;
-        width: 30%;
-        justify-content: center;
-        margin-left: 10px;
-    }
+  #nav-menu {
+    height: 6em !important;
+    transition: .6s;
+  }
 
-    #nav-menu .menus {
-        display: block;
-        justify-content: space-around;
-    }
+  #nav-menu nav {
+    width: 70%;
+    transition: .6s;
+  }
 
-    #nav-menu nav ul {
-        gap: 0em;
-    }
+  #nav-menu > div {
+    gap: 0.5em;
+    width: 30%;
+    justify-content: center;
+    margin-left: 10px;
+  }
 
-    #nav-menu nav ul li {
-        font-size: .8em;
-    }
+  #nav-menu .menus {
+    align-items: center;
+    height: 6em !important;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: none;
+    transition: .6s;
+  }
 
-    header#nav-menu > div > h1 {
-        font-size: 1em;
-        max-width: 110px;
-    }
+  #nav-menu nav ul {
+    gap: 0em;
+  }
 
-    header#nav-menu > div > i {
-        font-size: 2em;
-    }
+  #nav-menu nav ul li {
+    font-size: 0.8em;
+  }
 
-    #home {
+  header#nav-menu > div > h1 {
+    font-size: 1em;
+    max-width: 110px;
+  }
 
-    }
+  header#nav-menu > div > i {
+    font-size: 2em;
+  }
 
-    section#home > main {
-    }
+  #home {
+  }
 
-    #home > main > div.content {
+  section#home > main {
+  }
 
-    }
+  #home > main > div.content {
+  }
 
-    #home > main > div.content > article {
+  #home > main > div.content > article {
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+  }
 
-    }
+  #home > main > div.content > aside {
+    width: 0px;
+}
 
-    #home > main > div.content > article .hello {
+  #home > main > div.content > article .hello {
+    text-indent: 10px;
+    font-size: 1.2em;
+  }
+  
+  #home > main .content > article h2 {
+    margin-left: 60px;
+    margin-bottom: 30px;
+  }
 
-    }
+  #home > main > div.content > article .console-text {
+    font-size: 1em;
+  }
 
-    #home > main > div.content > article .console-text{
+  #home > main > div.content > article div.console {
+    width: 100%;
+    max-width: 400px;
+    min-width: 380px;
+    padding: 20px;
+  }
 
-    }
+  #home > main > div.content > article footer {
+  }
 
-    #home > main .content > article h2 {
+  #home > main > div.content > article footer a i {
+    font-size: 2.2em;
+  }
 
-    }
+  #home > main > div.content > aside {
+  }
 
-    #home > main> div.content > article div.console {
+  .content aside img {
+    display: none;
+  }
 
-    }
+  #about {
+    display: block;
+  }
 
-    #home > main > div.content > article footer {
+  #portifolio {
+    display: none;
+  }
 
-    }
-
-    #home > main > div.content > article footer a i {
-
-    }
-
-    #home > main > div.content > aside {
-
-    }
-
-    .content aside img{
-        display: none;
-    }
-
-    #about {
-        display: none;
-    }
-
-    #portifolio {
-        display: none;
-    }
-
-    #skills {
-        display: none;
-    }
+  #skills {
+    display: none;
+  }
 }
