@@ -22,7 +22,9 @@ menuOptions.addEventListener('click', () => {
 window.addEventListener('resize', () => {
     if (window.innerWidth >= 481 && window.innerWidth <= 768) {
         menuOptions.style.display = 'flex'
-    } else {
+    } else if (window.innerWidth < 481){
         menuOptions.style.display = 'none'
+    } else if (window.innerWidth >= 769 && window.innerWidth <= 1024){
+        menuOptions.style.display = 'flex'
     }
 })

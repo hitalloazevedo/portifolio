@@ -305,12 +305,6 @@
     font-size: 2em;
   }
 
-  #home {
-  }
-
-  section#home > main {
-  }
-
   #home > main > div.content {
     display: flex;
     justify-content: center;
@@ -348,16 +342,6 @@
     max-width: 450px;
     min-width: 400px;
     padding: 20px 30px;
-  }
-
-  #home > main > div.content > article footer {
-  }
-
-  #home > main > div.content > article footer a i {
-    font-size: 2.2em;
-  }
-
-  #home > main > div.content > aside {
   }
 
   .content aside img {
@@ -519,7 +503,131 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  #portifolio {
-    display: block;
-  }
+    #nav-menu {
+      }
+    
+    #nav-menu > nav {
+        display: flex;
+        width: 70%;
+    }
+
+    #nav-menu > div {
+        width: 30%;
+    }
+
+    #nav-menu > div h1{
+        font-size: 1.3em;
+        max-width: 110px;
+    }
+
+    #nav-menu .menus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+    }
+
+    #nav-menu nav ul {
+    
+    }
+
+    #nav-menu nav ul li {
+        font-size: 1em;
+    
+    }
+
+    #home > main {
+        padding: 0;
+    }
+
+    #home > main > div.content {
+
+    }
+    
+    #home > main > div.content > article {
+        width: 100%;
+    }
+
+    #home > main > div.content > article .hello {
+        text-indent: 10px;
+        font-size: 2em;
+      }
+    
+      #home > main .content > article h2 {
+        margin-left: 60px;
+        margin-bottom: 30px;
+        font-size: 2.5em;
+        min-width: 260px;
+      }
+    
+    #home > main > div.content > article div.console {
+        width: 90%;
+    }
+
+    #home > main > div.content > article .console-text {
+        font-size: 1.2em;
+    }
+
+    #home > main > div.content > article footer a i {
+        font-size: 2.5em;
+    }
+
+    #home > main > div.content > aside {
+        width: 0px;
+    }
+
+    #home > main > div.content > aside img {
+        width: 0px;
+        min-width: 0px;
+        display: none;
+    }
+
+    #about header h2 {
+        font-size: 2em;
+    }
+
+    #about .about-content p {
+        width: 100%;
+        font-size: 1.1em;
+    }
+
+    #portifolio header h2 {
+        font-size: 2em;
+    }
+
+    .swiper {
+        width: 380px;
+    }
+
+    .card {
+        width: 380px;
+    }
+
+    #skills header h2 {
+        font-size: 2em;
+    }
+
+    .skills .soft-skills header h3 {
+        font-size: 1.5em;
+    }
+
+    .skills .soft-skills ul li {
+        font-size: 1.3em;
+    }
+
+    .skills .hard-skills .hard-skills-content {
+        width: 100%;
+    }
+
+    .skills .hard-skills .hard-skills-content > div {
+        width: 15%;
+        min-width: 120px;
+        min-height: 120px;
+    }
+
+    footer#contact {
+        display: block;
+        height: 160px;
+        margin-top: 8em;
+    }
 }
