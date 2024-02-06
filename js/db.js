@@ -17,7 +17,7 @@ export const projects = [
         name: "Gym Landing Page",
         description: "A landpage designed for gym owner.",
         githubLink: "https://github.com/hitalloazevedo/lp-academia",
-        projectLink: "https://hitalloazevedo.github.io/lp-academia/",
+        projectLink: "https://hitalloazevedo.github.io/landing-page-academia/",
         imageUri: "https://i.pinimg.com/736x/cb/54/32/cb543250be8d485a210db4802120e6e4.jpg"
     },
     {
