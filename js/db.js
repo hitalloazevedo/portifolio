@@ -1,9 +1,9 @@
 export const projects = [
     {
-        name: "Landing Page NL",
+        name: "Newsletter Landing Page",
         description: "A landing page to subscribe in a newsletter.",
         githubLink: "https://github.com/hitalloazevedo/landing-page-project",
-        projectLink: "https://hitalloazevedo.github.io/landing-page-project/",
+        projectLink: "https://github.com/hitalloazevedo/newsletter-landing-page",
         imageUri: "https://i.pinimg.com/736x/4e/17/ae/4e17ae5487abe07b8b79ac17010edf83.jpg"
     },
     {
